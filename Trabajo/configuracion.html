@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/netcetis.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html"><b>NetCETIS</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Otras opciones
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="login.html">Iniciar sesión</a>
+                <a class="dropdown-item" href="configuracion.html">Configuración</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="login.html">Cerrar sesión</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        Grupos
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Amigos
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        Páginas
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        Avatars
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-video-camera" aria-hidden="true"></i>
+                        Videos
+                    </li>
+                    <li class="list-group-item">
+                        <a href="login.html">Cerrar sesión</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

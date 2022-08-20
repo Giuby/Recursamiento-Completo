@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook 2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/netcetis.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html"><b>Facebook 2</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Otras opciones
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="login.html">Iniciar sesión</a>
+                <a class="dropdown-item" href="configuracion.html">Configuración</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="login.html">Cerrar sesión</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+    </nav>
+
+    <div class="container"><br>
+      <h5></h5>
+      <div class="row" style="margin-top: 20px; margin-bottom:20px;">
+        <div class="col-12">
+          <div class="card" style="width: 100%;">
+            <img src="img/Bum.jpg" class="card-img-top" alt="Home Office">
+            <div class="card-body">
+        
+              <h5 class="card-title">Chabelo  <small class="float-right" style="color: #baadb1;">13.8 billion years.</small></h5>
+              <p class="card-text">
+                Big Bang<a href="#">#Chabelo</a>Ya no se puede dormir tranquilo. ¿Alguien sabe que fue esa luz gigante molesta?
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="img/haha.png" alt="icono de wow" width="11%">
+                <img src="img/like.png" alt="icono de like" width="16%" style="margin-left: -6%;">
+                <img src="img/wow.png" alt="icono de wow" width="10%" style="margin-left: -6%;">
+                <span id="reactions">87</span>
+              </li>
+              <li class="list-group-item" style="padding: 0px;">
+                <div class="accordion" id="accordionExample">
+                  <div class="card" style="border: 0px;">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          2 Comentarios
+                        </button>
+                      </h2>
+                    </div>
+                
+
+
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body" style="padding: 0px;">
+                        <table class="table table-striped">
+                          <tbody>
+                            <tr>
+                              <td>
+                               <img src="IMG/Vecino.JPG" alt="Vecino" width="40" height="40"> 
+                                <small><b>Azathoth</b></small><br>
+                                Aasdhakjhdkjhewfkjnd,nvknakjsngrqjeflmkañdlf,af-ae,fa,ñlemf. ¿s2qhwdqkndkjasnfkjqnbeuiqnfrew?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <img src="IMG/Inmortal.jpg" alt="Vecino" width="40" height="40"> 
+                                <small><b>Isabel II</b></small><br>
+                                ¿Tambien la vieron ustedes? Fue bastante molesta. Altero mucho a mis perros.
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a id="like">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                Me gusta
+              </a>
+              <a id="comment">
+                <span class="float-right"> 
+                  <i class="fa fa-comment-o fa-2" aria-hidden="true"></i> 
+                  Comentar
+                </span> 
+              </a>
+              <textarea id="comentario" rows="2" placeholder="Teclea tu comentario" style="margin-top:15px; width:100%;display: none;"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px; margin-bottom:20px;">
+        <div class="col-12">
+          <div class="card" style="width: 100%;">
+            <iframe width="100%" src="https://www.youtube.com/embed/AnGMfS_9Fmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">María Lopez G.  <small class="float-right" style="color: #baadb1;">3 Days Ago</small></h5>
+              <p class="card-text">
+                UEMSTIS (DGETI) .Conoce aquí todo lo que te ofrecen los CETis y CBTis de la UEMSTIS (antes DGETI).
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="img/haha.png" alt="icono de wow" width="11%">
+                <img src="img/like.png" alt="icono de like" width="16%" style="margin-left: -6%;">
+                <img src="img/wow.png" alt="icono de wow" width="10%" style="margin-left: -6%;">
+                <span id="reactions2">15</span>
+              </li>
+              <li class="list-group-item" style="padding: 0px;">
+                <div class="accordion" id="accordionExample2">
+                  <div class="card" style="border: 0px;">
+                    <div class="card-header" id="headingOne2">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          2 Comentarios
+                        </button>
+                      </h2>
+                    </div>
+                
+
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body" style="padding: 0px;">
+                        <table class="table table-striped">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <img src="IMG/Morsa.jpg" alt="Vecino" width="40" height="40"> 
+                                <small><b>Kevin Vladimir</b></small><br>
+                                Esta chingon el CETIS. Buenos 3 años.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <img src="IMG/Paco.jpg" alt="Vecino" width="40" height="40"> 
+                                <small><b>Paco El Perro</b></small><br>
+                                Me siento excluido por parte de la comunidad del CETIS donde me encuentro. Se le da preferencia a los gatos sin ninguna razon y nos afecta a nosotros los perros.
+                                Solo miren esto <a href="#https://www.instagram.com/michis_del_cetis107/?hl=es-la">#GatosHorribles</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a id="like2">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                Me gusta
+              </a>
+              <a id="comment2">
+                <span class="float-right"> 
+                  <i class="fa fa-comment-o fa-2" aria-hidden="true"></i> 
+                  Comentar
+                </span> 
+              </a>
+              <textarea id="comentario2" rows="2" placeholder="Teclea tu comentario" style="margin-top:15px; width:100%;display: none;"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 20px; margin-bottom:20px;">
+        <div class="col-12">
+          <div class="card" style="width: 100%;">
+            <img src="img/Satan2.jpg" class="card-img-top" alt="Home Office">
+            <div class="card-body">
+              <h5 class="card-title">Ucrania <small class="float-right" style="color: #baadb1;">1 Day Ago</small></h5>
+              <p class="card-text">
+                Miren lo que esta haciendo Rusia. Ayudenme por favor :c
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <img src="img/haha.png" alt="icono de wow" width="11%">
+                <img src="img/like.png" alt="icono de like" width="16%" style="margin-left: -6%;">
+                <img src="img/wow.png" alt="icono de wow" width="10%" style="margin-left: -6%;">
+                <span id="reactions3">43</span>
+              </li>
+              <li class="list-group-item" style="padding: 0px;">
+                <div class="accordion" id="accordionExample3">
+                  <div class="card" style="border: 0px;">
+                    <div class="card-header" id="headingOne3">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-right" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          3 Comentarios
+                        </button>
+                      </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body" style="padding: 0px;">
+                        <table class="table table-striped">
+                          <tbody>
+
+
+                         <tr>
+  <td>
+    <img src="IMG/Rusia.jpg" alt="Vecino" width="40" height="40"> 
+    <small><b>Rusia</b></small><br>
+    Ucrania. Deja de publicar tonterias o las cosas se pondran peor. A demas ya me estoy hartando de esto.
+  </td>
+</tr>
+<tr>
+  <td>
+    <img src="IMG/Ucrania.jpg" alt="Vecino" width="40" height="40"> 
+    <small><b>Ucrania</b></small><br>
+    USA. Dile algo. Ahora esta probando nuevas armas.
+  </td>
+</tr>
+<tr>
+  <td>
+    <img src="IMG/Usa.jpg" alt="Vecino" width="40" height="40"> 
+    <small><b>Usa</b></small><br>
+    Ucrania, lo siento. Ahora estoy ocupado arreglando las cosas con Taiwan y China. Pero te mando mas armas.
+  </td>
+</tr>
+
+
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="card-body">
+              <a id="like3">
+                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                Me gusta
+              </a>
+              <a id="comment3">
+                <span class="float-right"> 
+                  <i class="fa fa-comment-o fa-2" aria-hidden="true"></i> 
+                  Comentar
+                </span> 
+              </a>
+              <textarea id="comentario3" rows="2" placeholder="Teclea tu comentario" style="margin-top:15px; width:100%;display: none;"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
